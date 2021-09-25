@@ -1,8 +1,8 @@
 <html>
 <head>
-  <link rel="icon" href="/static/images/icons/Icon.png">
+  <link rel="icon" href="/RoStats_/static/images/icons/Icon.png">
   <title>Login - RoStats</title>
-  <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="/RoStats_/static/css/styles.css">
 <style>
   
 .alert {
@@ -91,10 +91,10 @@ h1 {text-align: center;}
 <title>Sign Up - RoStats</title>
 <meta name="description" content="">
 
-<link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+<link rel="stylesheet" type="text/css" href="/RoStats_/static/css/styles.css">
 
-<script type="text/javascript" src="/static/css/jquery.min.js"></script>
-<script type="text/javascript" src="/static/css/jquery.fillcolor.js"></script>
+<script type="text/javascript" src="/RoStats_/static/css/jquery.min.js"></script>
+<script type="text/javascript" src="/RoStats_/static/css/jquery.fillcolor.js"></script>
 
 <style type="text/css">
 body {
@@ -120,22 +120,22 @@ padding-top:0 !important;
                     <a href="/index.html"><h1>RoStats</h1></a>
                 
                 
-                <form name="searchForm" action="/static/pages/searching.html" method="POST" id="search_background" class="search_background" style="background-color: rgb(24, 26, 29);">
+                <form name="searchForm" action="/RoStats_/static/pages/searching.html" method="POST" id="search_background" class="search_background" style="background-color: rgb(24, 26, 29);">
                     <input type="hidden" name="csrfmiddlewaretoken" value="brnNr4xP8K2OFC1Eim01gYTIUJBMgPwP3HYr8mezDRAp9b2n1D50aybEH4bRzcFA">
                     <div id="search_bar" class="searchbar">
                         <input name="user" class="search" placeholder="Search For A User Here" required=""> 
-                        <input type="Image" class="search_im" style="width: 25px; height: auto; outline: none; cursor: pointer;" src="/static/images/icons/search.svg"> 
+                        <input type="Image" class="search_im" style="width: 25px; height: auto; outline: none; cursor: pointer;" src="/RoStats_/static/images/icons/search.svg"> 
                     </div>
                 </form>
                 
                 <nav>
                     <ul class="nav_links">
                         <li style="cursor: pointer;" onclick="search()" onmouseover="search_over()" onmouseout="search_out()"><a id="search_nav">Search</a></li>
-                        <li><a href="/static/pages/FindCreators.html">Find Creators</a></li>
+                        <li><a href="/RoStats_/static/pages/FindCreators.html">Find Creators</a></li>
                         
                         
                             <a id="special" href=""><button style="font-size: 80%; margin-right: 10px; margin-left: 25px; font-weight: 1000; transform: translate(0px, -2px); padding-bottom: 11.5px;"> &ZeroWidthSpace; Login &ZeroWidthSpace; </button></a>
-                      <a id="special" href="/static/pages/signup.html"><button style="font-size: 80%; margin-right: 10px; margin-left: 25px; font-weight: 1000; transform: translate(0px, -2px); padding-bottom: 11.5px;"> &ZeroWidthSpace; Sign Up &ZeroWidthSpace; </button></a>
+                      <a id="special" href="/RoStats_/static/pages/signup.html"><button style="font-size: 80%; margin-right: 10px; margin-left: 25px; font-weight: 1000; transform: translate(0px, -2px); padding-bottom: 11.5px;"> &ZeroWidthSpace; Sign Up &ZeroWidthSpace; </button></a>
                         
                         
                     </ul>    
@@ -172,8 +172,8 @@ padding-top:0 !important;
                     <h1 id="padlock_text" style="font-size: 18px; margin: 0 auto;">Hide Password</h1>
                     <div style="position: absolute; display: flex; justify-self: center; align-self: center; transform: translate(0px, 20px); width: 0; height: 0;border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid black;"></div>
                 </div>
-                <img id="padlock" src="/static/images/signup/showpassword.svg" onclick="padlock_change()" onmouseover="document.getElementById('padlock_description').style.display = 'flex'" onmouseout="document.getElementById('padlock_description').style.display = 'none'" style="position: absolute; z-index: 99; width: 35px; height: auto; transform: translate(-55px, 19px); cursor: pointer; display: none;">
-                <img id="padlock2" src="/static/images/signup/hidepassword.svg" onclick="padlock_change()" onmouseover="document.getElementById('padlock_description').style.display = 'flex'" onmouseout="document.getElementById('padlock_description').style.display = 'none'" style="position: absolute; z-index: 99; width: 35px; height: auto; transform: translate(-55px, 19px); cursor: pointer; display: inline;">
+                <img id="padlock" src="/RoStats_/static/images/signup/showpassword.svg" onclick="padlock_change()" onmouseover="document.getElementById('padlock_description').style.display = 'flex'" onmouseout="document.getElementById('padlock_description').style.display = 'none'" style="position: absolute; z-index: 99; width: 35px; height: auto; transform: translate(-55px, 19px); cursor: pointer; display: none;">
+                <img id="padlock2" src="/RoStats_/static/images/signup/hidepassword.svg" onclick="padlock_change()" onmouseover="document.getElementById('padlock_description').style.display = 'flex'" onmouseout="document.getElementById('padlock_description').style.display = 'none'" style="position: absolute; z-index: 99; width: 35px; height: auto; transform: translate(-55px, 19px); cursor: pointer; display: inline;">
                 <h1 id="pass_no_requirements" style="font-size: 15px; margin-top: 10px; color: #c44c4c; margin-right: 20px;">Password or email is incorrect!</h1>
 
             <!-- continue button -->
